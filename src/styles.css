@@ -1,0 +1,46 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+#intro {
+    display: flex;
+    height: 400px;
+    background-image: url('./assets/img/man-in-brewery.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.divider {
+    color: black;
+    background-color: #eee;
+}
+
+.book {
+    display: flex;
+    height: 300px;
+    background-image: url('./assets/img/man-at-bar.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.book-tasting {
+    font-size: 1.5em;
+    font-weight: 600;
+    border: 3px solid;
+}
+
+/* Media Queries */
+
+@media(min-width: 576px) {
+    #intro {
+        height: 600px;
+    }
+    
+}
