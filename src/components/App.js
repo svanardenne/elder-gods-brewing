@@ -6,6 +6,7 @@ import Divider from './Divider';
 import About from './About';
 import Book from './Book';
 import Cards from './Cards';
+import Footer from './Footer';
 import HopsImg from '../assets/img/hops-elevate.jpg';
 import HopsImg2 from '../assets/img/hops-andre-klimke.jpg';
 import Cheers from '../assets/img/cheers-elevate.jpg';
@@ -52,7 +53,8 @@ class App extends Component {
         text: `Lorem ipsum dolor sit amet, 
         consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt 
-        ut labore et dolore magna aliqua.`
+        ut labore et dolore magna aliqua.`,
+        id: 1
       },
       {
         img: Brewer,
@@ -60,7 +62,8 @@ class App extends Component {
         text: `Lorem ipsum dolor sit amet, 
         consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt 
-        ut labore et dolore magna aliqua.`
+        ut labore et dolore magna aliqua.`,
+        id: 2
       },
       {
         img: Bartender,
@@ -68,7 +71,8 @@ class App extends Component {
         text: `Lorem ipsum dolor sit amet, 
         consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt 
-        ut labore et dolore magna aliqua.`
+        ut labore et dolore magna aliqua.`,
+        id: 3
       }
     ]
   }
@@ -101,19 +105,23 @@ class App extends Component {
           </section>
           <section id="team">
             <h2 className="my-5 text-center">Our Team</h2>
-            <div className="row justify-content-center mx-0">
+            <div className="row justify-content-around mx-0">
                 {this.state.teamInfo.map(info => 
                 <Cards
                   teamImg={info.img}
                   teamTitle={info.title}
                   teamText={info.text}
+                  key={info.id}
                 />
                 )}
             </div>
           </section>
         </main>
-        <footer>
-          
+        <footer id="contact" className="container-fluid">
+          <Footer />
+          <div className="text-center">
+            <span>@ 2020 Copyright Elder Gods Brewing</span>
+          </div>
         </footer>
       </React.Fragment>
 

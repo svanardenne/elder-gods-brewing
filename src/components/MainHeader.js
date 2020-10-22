@@ -1,5 +1,5 @@
 import React from 'react';
-import {Jumbotron, Container} from 'react-bootstrap';
+import {Jumbotron, Container, Button} from 'react-bootstrap';
 
 const MainHeader = () => {
     return(
@@ -13,6 +13,11 @@ const MainHeader = () => {
                 <p>
                 Brewing the finest local craft beer since 2002
                 </p>
+                <div>
+                    <Button className="headline-button text-white m-2" variant="outline-dark">SEE MENU</Button>{' '}
+                    <Button className="headline-button text-white m-2" variant="outline-dark">BOOK A TASTING</Button>{' '}
+
+                </div>
             </Container>
         </Jumbotron>
 

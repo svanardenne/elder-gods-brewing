@@ -4,8 +4,8 @@ import Card from 'react-bootstrap/Card';
 const Cards = (props) => {
 
     return(
-        <div className="col-md-4 text-dark">
-            <Card style={{ width: '18rem' }}>
+        <div className="text-dark m-4 card-top">
+            <Card className="card">
             <Card.Img variant="top" src={props.teamImg} />
             <Card.Body>
                 <Card.Title>{props.teamTitle}</Card.Title>

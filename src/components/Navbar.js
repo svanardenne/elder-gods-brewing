@@ -15,7 +15,8 @@ const MainNav = () => {
             <Nav className="mr-auto">
               <Nav.Link href="#intro">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#book">Reserve a tasting</Nav.Link>
+              <Nav.Link href="#team">Team</Nav.Link>
+              <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

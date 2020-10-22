@@ -4,7 +4,7 @@ import React from 'react';
 const About = (props) => {
     
     return(
-        <div className="row justify-content-center align-items-center mx-0 my-3">
+        <div className="row justify-content-center align-items-center mx-0 my-3 last-about">
             <div className="col-md-4">
                 <h2>{props.aboutTitle}</h2>
                 <p>{props.aboutText}</p>

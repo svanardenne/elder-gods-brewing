@@ -12,6 +12,11 @@ body {
     background-repeat: no-repeat;
 }
 
+.headline-button {
+    font-weight: 600;
+    border: 3px solid;
+}
+
 .bg-black {
     background-color: black;
 }
@@ -19,6 +24,10 @@ body {
 .divider {
     color: black;
     background-color: #eee;
+}
+
+.last-about:last-child {
+    margin-bottom: 48px !important;
 }
 
 .book {
@@ -34,6 +43,15 @@ body {
     font-size: 1.5em;
     font-weight: 600;
     border: 3px solid;
+}
+
+.card {
+    min-width: 18rem;
+    height: 100%;
+}
+
+.card-top {
+    margin-top: 0 !important;
 }
 
 /* Media Queries */
@@ -57,6 +75,24 @@ body {
     }
 }
 
+@media(min-width: 960px) {
+    .card {
+        max-width: 15rem;
+    }
+}
+
+@media(min-width: 1300px) {
+    .card {
+        max-width: 24rem;
+    }
+}
+
+@media(min-width: 1920px) {
+    .card {
+        max-width: 35rem;
+    }
+}
+
 @media(min-width: 2560px) {
     body {
         font-size: 2rem;
@@ -74,5 +110,8 @@ body {
     }
     .book {
         height: 600px;
+    }
+    .card {
+        max-width: 40rem;
     }
 }
