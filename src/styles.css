@@ -23,7 +23,7 @@ body {
 
 .book {
     display: flex;
-    height: 300px;
+    height: 200px;
     background-image: url('./assets/img/man-at-bar.jpg');
     background-size: cover;
     background-position: center;
@@ -40,7 +40,39 @@ body {
 
 @media(min-width: 576px) {
     #intro {
-        height: 600px;
+        height: 800px;
+    }
+    .book {
+        height: 300px;
     }
     
+}
+
+@media(min-width: 768px) {
+    #intro {
+        height: 800px;
+    }
+    .book {
+        height: 400px;
+    }
+}
+
+@media(min-width: 2560px) {
+    body {
+        font-size: 2rem;
+    }
+    h1,
+    h2,
+    h3 {
+        font-size: 3rem;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+    #intro {
+        height: 1000px;
+    }
+    .book {
+        height: 600px;
+    }
 }
