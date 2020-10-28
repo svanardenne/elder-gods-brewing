@@ -11,7 +11,7 @@ import HopsImg from '../assets/img/hops-elevate.jpg';
 import HopsImg2 from '../assets/img/hops-andre-klimke.jpg';
 import Cheers from '../assets/img/cheers-elevate.jpg';
 import Founder from '../assets/img/man-in-polo-foto-sushi.jpg';
-import Brewer from '../assets/img/man-with-moustache-nick-arnot.jpg';
+import Brewer from '../assets/img/man-holding-beer-evan-dvorkin.jpg';
 import Bartender from '../assets/img/bartender-andriyko-podilnyk.jpg';
 
 class App extends Component {
