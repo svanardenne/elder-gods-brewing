@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/elder-gods-brewing/static/css/main.210ffd74.chunk.css",
-    "main.js": "/elder-gods-brewing/static/js/main.ed50891f.chunk.js",
-    "main.js.map": "/elder-gods-brewing/static/js/main.ed50891f.chunk.js.map",
+    "main.css": "/elder-gods-brewing/static/css/main.749a9d31.chunk.css",
+    "main.js": "/elder-gods-brewing/static/js/main.23f5e8f2.chunk.js",
+    "main.js.map": "/elder-gods-brewing/static/js/main.23f5e8f2.chunk.js.map",
     "runtime-main.js": "/elder-gods-brewing/static/js/runtime-main.290bdd71.js",
     "runtime-main.js.map": "/elder-gods-brewing/static/js/runtime-main.290bdd71.js.map",
     "static/css/2.2a86faee.chunk.css": "/elder-gods-brewing/static/css/2.2a86faee.chunk.css",
-    "static/js/2.88312ec2.chunk.js": "/elder-gods-brewing/static/js/2.88312ec2.chunk.js",
-    "static/js/2.88312ec2.chunk.js.map": "/elder-gods-brewing/static/js/2.88312ec2.chunk.js.map",
+    "static/js/2.3e3a8ded.chunk.js": "/elder-gods-brewing/static/js/2.3e3a8ded.chunk.js",
+    "static/js/2.3e3a8ded.chunk.js.map": "/elder-gods-brewing/static/js/2.3e3a8ded.chunk.js.map",
     "index.html": "/elder-gods-brewing/index.html",
-    "precache-manifest.0c6c6c54adcb2a9fdfbef411aa8468c5.js": "/elder-gods-brewing/precache-manifest.0c6c6c54adcb2a9fdfbef411aa8468c5.js",
+    "precache-manifest.27a38ca9c7853b20d680617da0094c8e.js": "/elder-gods-brewing/precache-manifest.27a38ca9c7853b20d680617da0094c8e.js",
     "service-worker.js": "/elder-gods-brewing/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/elder-gods-brewing/static/css/2.2a86faee.chunk.css.map",
-    "static/css/main.210ffd74.chunk.css.map": "/elder-gods-brewing/static/css/main.210ffd74.chunk.css.map",
-    "static/js/2.88312ec2.chunk.js.LICENSE.txt": "/elder-gods-brewing/static/js/2.88312ec2.chunk.js.LICENSE.txt",
+    "static/css/main.749a9d31.chunk.css.map": "/elder-gods-brewing/static/css/main.749a9d31.chunk.css.map",
+    "static/js/2.3e3a8ded.chunk.js.LICENSE.txt": "/elder-gods-brewing/static/js/2.3e3a8ded.chunk.js.LICENSE.txt",
     "static/media/bartender-andriyko-podilnyk.jpg": "/elder-gods-brewing/static/media/bartender-andriyko-podilnyk.19be3e70.jpg",
     "static/media/cheers-elevate.jpg": "/elder-gods-brewing/static/media/cheers-elevate.265b192a.jpg",
     "static/media/hops-andre-klimke.jpg": "/elder-gods-brewing/static/media/hops-andre-klimke.5d2fdb45.jpg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.290bdd71.js",
     "static/css/2.2a86faee.chunk.css",
-    "static/js/2.88312ec2.chunk.js",
-    "static/css/main.210ffd74.chunk.css",
-    "static/js/main.ed50891f.chunk.js"
+    "static/js/2.3e3a8ded.chunk.js",
+    "static/css/main.749a9d31.chunk.css",
+    "static/js/main.23f5e8f2.chunk.js"
   ]
 }

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b9633dab110d46c54a9d12b3d02c7da6",
+    "revision": "dfed6aa12a56b70a4709587e43eea632",
     "url": "/elder-gods-brewing/index.html"
   },
   {
-    "revision": "2d99283a4d6b731655bb",
+    "revision": "70d050bf2fb54256a274",
     "url": "/elder-gods-brewing/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "5544df62186346a5b41d",
-    "url": "/elder-gods-brewing/static/css/main.210ffd74.chunk.css"
+    "revision": "504daa69983db9097410",
+    "url": "/elder-gods-brewing/static/css/main.749a9d31.chunk.css"
   },
   {
-    "revision": "2d99283a4d6b731655bb",
-    "url": "/elder-gods-brewing/static/js/2.88312ec2.chunk.js"
+    "revision": "70d050bf2fb54256a274",
+    "url": "/elder-gods-brewing/static/js/2.3e3a8ded.chunk.js"
   },
   {
     "revision": "78fd0f62364854e39c53711d027f73a3",
-    "url": "/elder-gods-brewing/static/js/2.88312ec2.chunk.js.LICENSE.txt"
+    "url": "/elder-gods-brewing/static/js/2.3e3a8ded.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5544df62186346a5b41d",
-    "url": "/elder-gods-brewing/static/js/main.ed50891f.chunk.js"
+    "revision": "504daa69983db9097410",
+    "url": "/elder-gods-brewing/static/js/main.23f5e8f2.chunk.js"
   },
   {
     "revision": "6214c859365356cd4c22",

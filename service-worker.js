@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/elder-gods-brewing/precache-manifest.0c6c6c54adcb2a9fdfbef411aa8468c5.js"
+  "/elder-gods-brewing/precache-manifest.27a38ca9c7853b20d680617da0094c8e.js"
 );
 
 self.addEventListener('message', (event) => {
