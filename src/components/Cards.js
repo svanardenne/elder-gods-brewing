@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 const Cards = (props) => {
 
     return(
-        <div className="text-dark m-4 card-top">
+        <div className="text-dark m-4 card-top fades">
             <Card className="card">
             <Card.Img variant="top" src={props.teamImg} />
             <Card.Body>

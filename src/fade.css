@@ -1,0 +1,13 @@
+.fades {
+
+    -webkit-transition-delay: .3s;
+    -o-transition-delay: 1s;
+    transition-delay: 1s;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1.5s;
+    opacity: 0;
+}
+.inView {
+    opacity: 1;
+}

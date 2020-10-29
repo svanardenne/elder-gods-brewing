@@ -83,13 +83,15 @@ class App extends Component {
     return (
 
       <React.Fragment>
-        <header className="App-header">
+        <header className="App-header fades">
           <MainNav />
           <MainHeader />
         </header>
         <main className="container-fluid px-0">
+          <section className="divider py-5 fades">
           <Divider />
-          <section id="about" className="text-center text-white">
+          </section>
+          <section id="about" className="text-center text-white fades">
             <h2 className="my-5">Our Promise:</h2>
               {this.state.aboutInfo.map(info => 
               <About
@@ -100,10 +102,10 @@ class App extends Component {
               />
               )}
           </section>
-          <section id="book">
+          <section id="book" className="fades">
             <Book />
           </section>
-          <section id="team">
+          <section id="team" className="fades">
             <h2 className="my-5 text-center">Our Team</h2>
             <div className="row justify-content-around mx-0">
                 {this.state.teamInfo.map(info => 
@@ -117,7 +119,7 @@ class App extends Component {
             </div>
           </section>
         </main>
-        <footer id="contact" className="container-fluid">
+        <footer id="contact" className="container-fluid fades">
           <Footer />
           <div className="text-center">
             <span>@ 2020 Copyright Elder Gods Brewing</span>
