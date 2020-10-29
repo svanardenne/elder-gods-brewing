@@ -83,7 +83,7 @@ class App extends Component {
     return (
 
       <React.Fragment>
-        <header className="App-header fades">
+        <header className="App-header main-header">
           <MainNav />
           <MainHeader />
         </header>
@@ -128,6 +128,61 @@ class App extends Component {
       </React.Fragment>
 
     );
+  }
+
+/* ============================================= */
+/*                 Scripts                       */
+/* ============================================= */
+
+  componentDidMount() {
+    //Create fade effect on sections on scroll
+    let elementsArray = document.querySelectorAll(".fades");
+    console.log(elementsArray);
+    window.addEventListener('scroll', fadeIn ); 
+    function fadeIn() {
+        for (var i = 0; i < elementsArray.length; i++) {
+            var elem = elementsArray[i]
+            var distInView = elem.getBoundingClientRect().top - window.innerHeight + 50;
+            if (distInView < 0) {
+                elem.classList.add("inView");
+            } else {
+                elem.classList.remove("inView");
+            }
+        }
+    }
+    fadeIn();
+
+    //Global variables
+    const header = document.querySelector('.main-header');
+    const infoTitle = document.querySelector('.header-title');
+    const infoText = document.querySelector('.header-text');
+    const buttons = document.querySelector('.header-buttons');
+
+    //Sets opacity to full
+    function opacityFull(element) {
+      element.style.opacity = '1';
+    }
+
+    //Sets translateX to neutral position
+    function translateXNeutral(element) {
+      element.style.transform = "translateX(0px)";
+    }
+
+    //Sets translateY to neutral position
+    function translateYNeutral(element) {
+      element.style.transform = "translateY(0px)";
+    }
+
+    //Executes header animation on DOM load
+    window.addEventListener('load', () => {
+      if (header) {
+          opacityFull(header);
+          translateXNeutral(infoTitle);
+          setTimeout(() => {opacityFull(infoText)}, 2000);
+              translateYNeutral(buttons);
+      }
+      
+    });
   }
 }
 

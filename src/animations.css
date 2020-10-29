@@ -1,0 +1,22 @@
+/*CSS used to create header animation*/
+
+.main-header {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+    overflow: hidden;
+}
+
+.header-title {
+    transition: transform 2s ease-out;
+    transform: translateX(-5000px);
+}
+
+.header-text {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+.header-buttons {
+    transition: transform 2s ease-out;
+    transform: translateY(5000px);
+}

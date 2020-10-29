@@ -9,14 +9,13 @@ const MainHeader = () => {
         fluid 
         id="intro">
             <Container className="text-center my-auto">
-                <h1>Elder Gods Brewing</h1>
-                <p>
+                <h1 className="header-title">Elder Gods Brewing</h1>
+                <p className="header-text">
                 Brewing the finest local craft beer since 2002
                 </p>
-                <div>
+                <div className="header-buttons">
                     <Button className="headline-button text-white m-2" variant="outline-dark">SEE MENU</Button>{' '}
                     <Button className="headline-button text-white m-2" variant="outline-dark">BOOK A TASTING</Button>{' '}
-
                 </div>
             </Container>
         </Jumbotron>
